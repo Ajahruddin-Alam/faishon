@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    background-color: rgba(244, 0, 10, 0.5);
+box-shadow: 2px 3px 2px gray;
+}
+h2{
+    display: flex;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+    text-shadow: 2px 3px 2px gray;
+    margin-right: 10px;
+}
+.nav-item{
+    font-size: 25px;
+    display: flex;
+    margin-left: 150px;
+    margin-right: 20px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.nav-item div{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.tool-bar{
+margin-top: 10px;
+font-size: 25px;
+font-family: arial;
+margin-left: 100px;
+}
+.tool-bar span{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.main {
+    display: grid;
+    grid-template-columns: 3fr 6fr 3fr;
+    margin-left: 10px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.rating {
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.check {
+    margin-bottom: 7px;
+    margin-left: 20px;
+
+}
+
+.Ch {
+    width: 20px;
+    height: 20px;
+
+}
+
+.second {
+    margin-left: 30px;
+}
+
+.bi-heart {
+    margin-bottom: 5px;
+    margin-left: 200px;
+    margin-top: 500px;
+}
