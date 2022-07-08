@@ -78,3 +78,157 @@ li {
     margin-left: 200px;
     margin-top: 500px;
 }
+@media screen and(orientation:landscape) {
+    header{
+        display: flex;
+        background-color: rgba(244, 0, 10, 0.5);
+    box-shadow: 2px 3px 2px gray;
+    }
+    h2{
+        display: flex;
+        padding: 7px;
+        font-size: 15px;
+        font-weight: bold;
+        color: red;
+        text-shadow: 2px 3px 2px gray;
+        margin-right: 5px;
+    }
+    .nav-item{
+        font-size: 15px;
+        display: flex;
+        margin-left: 50px;
+        margin-right: 10px;
+        margin-top: 10px;
+        justify-content: space-between;
+    }
+    .nav-item div{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .tool-bar{
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: arial;
+    margin-left: 50px;
+    }
+    .tool-bar span{
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+    .main {
+        display: grid;
+        grid-template-columns: 3fr 6fr 3fr;
+        margin-left: 5px;
+        padding-left: 5px;
+    }
+    
+    li {
+        margin-bottom: 10px;
+    }
+    
+    .rating {
+        background-color: green;
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    
+    .check {
+        margin-bottom: 7px;
+        margin-left: 20px;
+    
+    }
+    
+    .Ch {
+        width: 20px;
+        height: 20px;
+    
+    }
+    
+    .second {
+        margin-left: 30px;
+    }
+    
+    .bi-heart {
+        margin-bottom: 5px;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+}
+@media screen and (orientation:portrait) {
+    header{
+        display: flex;
+        background-color: rgba(244, 0, 10, 0.5);
+    box-shadow: 2px 3px 2px gray;
+    }
+    h2{
+        display: flex;
+        padding: 5px;
+        font-size: 15px;
+        font-weight: bold;
+        color: red;
+        text-shadow: 2px 3px 2px gray;
+        margin-right: 5px;
+    }
+    .nav-item{
+        font-size: 15px;
+        display: flex;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        justify-content: space-between;
+    }
+    .nav-item div{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .tool-bar{
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: arial;
+    margin-left: 10px;
+    }
+    .tool-bar span{
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+    .main {
+        display: grid;
+        grid-template-columns: 3fr 6fr 3fr;
+        margin-left: 10px;
+        padding-left: 20px;
+    }
+    
+    li {
+        margin-bottom: 10px;
+    }
+    
+    .rating {
+        background-color: green;
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    
+    .check {
+        margin-bottom: 7px;
+        margin-left: 20px;
+    
+    }
+    
+    .Ch {
+        width: 20px;
+        height: 20px;
+    
+    }
+    
+    .second {
+        margin-left: 10px;
+    }
+    
+    .bi-heart {
+        margin-bottom: 5px;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+}
