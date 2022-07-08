@@ -238,7 +238,7 @@ li {
     
     .check {
         margin-bottom: 7px;
-        margin-left: 20px;
+        margin-left: 10px;
     
     }
     
@@ -251,10 +251,13 @@ li {
     .second {
         margin-left: 10px;
     }
+    .second ul {
+       font-size: 10px;
+    }
     
     .bi-heart {
         margin-bottom: 5px;
-        margin-left: 20px;
-        margin-top: 50px;
+        margin-left: 5px;
+        margin-top: 10px;
     }
 }
