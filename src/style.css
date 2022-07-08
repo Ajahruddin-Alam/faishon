@@ -78,7 +78,7 @@ li {
     margin-left: 200px;
     margin-top: 500px;
 }
-@media screen and(orientation:landscape) {
+@media screen and (orientation:landscape) {
     header{
         display: flex;
         background-color: rgba(244, 0, 10, 0.5);
