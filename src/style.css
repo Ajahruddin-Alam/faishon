@@ -112,12 +112,12 @@ li {
     }
     .tool-bar{
     margin-top: 10px;
-    font-size: 15px;
+    font-size: 10px;
     font-family: arial;
-    margin-left: 5px;
+    margin-left: 2px;
     }
     .tool-bar span{
-        margin-left: 5px;
+        margin-left: 2px;
         margin-right: 5px;
     }
     .main {
@@ -132,6 +132,8 @@ li {
     }
     ul{
         font-size: 12px;
+        font-weight: lighter;
+        font-family: sans-serif;
     }
     
     .rating {
@@ -162,8 +164,8 @@ li {
     
     .bi-heart {
         margin-bottom: 5px;
-        margin-left: 20px;
-        margin-top: 50px;
+        margin-left: 5px;
+        margin-top: 10px;
     }
 }
 @media screen and (orientation:portrait) {
@@ -180,6 +182,19 @@ li {
         color: red;
         text-shadow: 2px 3px 2px gray;
         margin-right: 5px;
+    }
+    h1{
+        font-size: 12px;
+        font-weight: bold;
+        color: red;
+    }
+    ul{
+        font-size: 12px;
+        font-weight: lighter;
+        font-family: sans-serif;
+    }
+    .second span{
+        font-size: 10px;
     }
     .nav-item{
         font-size: 12px;
