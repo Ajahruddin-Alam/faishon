@@ -91,7 +91,7 @@ li {
         font-weight: bold;
         color: red;
         text-shadow: 2px 3px 2px gray;
-        margin-right: 5px;
+        margin-right: 1px;
     }
     h1{
         font-size: 12px;
@@ -99,20 +99,20 @@ li {
         color: red;
     }
     .nav-item{
-        font-size: 10px;
+        font-size: 8px;
         display: flex;
-        margin-left: 5px;
-        margin-right: 3px;
+        margin-left: 1px;
+        margin-right: 1px;
         margin-top: 10px;
         justify-content: space-between;
     }
     .nav-item div{
-        margin-left: 5px;
-        margin-right: 3px;
+        margin-left: 1px;
+        margin-right: 1px;
     }
     .tool-bar{
     margin-top: 10px;
-    font-size: 10px;
+    font-size: 8px;
     font-family: arial;
     margin-left: 2px;
     }
@@ -181,7 +181,7 @@ li {
         font-weight: bold;
         color: red;
         text-shadow: 2px 3px 2px gray;
-        margin-right: 5px;
+        margin-right: 1px;
     }
     h1{
         font-size: 12px;
@@ -199,14 +199,14 @@ li {
     .nav-item{
         font-size: 12px;
         display: flex;
-        margin-left: 5px;
-        margin-right: 5px;
+        margin-left: 1px;
+        margin-right: 1px;
         margin-top: 10px;
         justify-content: space-between;
     }
     .nav-item div{
-        margin-left: 5px;
-        margin-right: 5px;
+        margin-left: 1px;
+        margin-right: 1px;
     }
     .tool-bar{
     margin-top: 10px;
