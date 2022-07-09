@@ -5,7 +5,7 @@
 
 header{
     display: flex;
-    background-color: rgba(244, 0, 10, 0.5);
+    background-color: rgba(136, 60, 146, 0.479);
 box-shadow: 2px 3px 2px gray;
 }
 h2{
@@ -102,22 +102,22 @@ li {
         color:black;
     }
     .nav-item{
-        font-size: 9px;
+        font-size: 12px;
         display: flex;
-        margin-left: 1px;
-        margin-right: 1px;
+        margin-left: 2px;
+        margin-right: 4px;
         margin-top: 10px;
         justify-content: space-between;
     }
     .nav-item div{
-        margin-left: 1px;
-        margin-right: 1px;
+        margin-left: 2px;
+        margin-right: 2px;
     }
     .tool-bar{
     margin-top: 10px;
-    font-size: 9px;
+    font-size: 13px;
     font-family: arial;
-    margin-left: 2px;
+    margin-left: 3px;
     }
     .tool-bar span{
         margin-left: 2px;
