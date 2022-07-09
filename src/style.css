@@ -73,6 +73,8 @@ li {
     margin-left: 30px;
 }
 
+
+
 .bi-heart {
     margin-bottom: 5px;
     margin-left: 200px;
@@ -92,6 +94,7 @@ li {
         color: red;
         text-shadow: 2px 3px 2px gray;
         margin-right: 1px;
+        margin-left: 2px;
     }
     h1{
         font-size: 12px;
@@ -99,7 +102,7 @@ li {
         color:black;
     }
     .nav-item{
-        font-size: 8px;
+        font-size: 9px;
         display: flex;
         margin-left: 1px;
         margin-right: 1px;
@@ -112,7 +115,7 @@ li {
     }
     .tool-bar{
     margin-top: 10px;
-    font-size: 8px;
+    font-size: 9px;
     font-family: arial;
     margin-left: 2px;
     }
@@ -131,7 +134,7 @@ li {
         margin-bottom: 10px;
     }
     ul{
-        font-size: 12px;
+        font-size: 14px;
         font-weight: lighter;
         font-family: sans-serif;
     }
@@ -159,14 +162,17 @@ li {
         margin-left: 30px;
     }
     .second span{
-        font-size: 7px;
+        font-size: 9px;
     }
     
     .bi-heart {
         margin-bottom: 5px;
         margin-left: 2px;
-        margin-right: 2px;
+        margin-right: 5px;
         margin-top: 10px;
+    }
+    .del{
+        font-size: 14px;
     }
 }
 @media screen and (orientation:portrait) {
@@ -183,19 +189,20 @@ li {
         color: red;
         text-shadow: 2px 3px 2px gray;
         margin-right: 1px;
+        margin-left: 2px;
     }
     h1{
-        font-size: 12px;
+        font-size: 13px;
         font-weight: bold;
         color: black;
     }
     ul{
-        font-size: 12px;
+        font-size: 13px;
         font-weight: lighter;
         font-family: sans-serif;
     }
     .second span{
-        font-size: 10px;
+        font-size: 13px;
     }
     .nav-item{
         font-size: 12px;
@@ -211,7 +218,7 @@ li {
     }
     .tool-bar{
     margin-top: 10px;
-    font-size: 10px;
+    font-size: 13px;
     font-family: arial;
     margin-left: 5px;
     }
@@ -253,13 +260,16 @@ li {
         margin-left: 10px;
     }
     .second ul {
-       font-size: 5px;
+       font-size: 8px;
     }
     
     .bi-heart {
         margin-bottom: 5px;
         margin-left: 2px;
-        margin-right: 2px;
+        margin-right: 5px;
         margin-top: 10px;
+    }
+    .del{
+        font-size: 12px;
     }
 }
